@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Animations</title>
+    <link href='https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' media='all' rel='stylesheet'>
+    <link href='https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' media='all' rel='stylesheet'>
+    <link href='../../vendor/animate/animate.css' media='all' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,500' rel='stylesheet' type='text/css'>
+    <link href='../style.css' media='all' rel='stylesheet'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js'></script>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport'>
+  </head>
+  <body>
+    <div class='wrapper'>
+      <div class='form-header'>
+        <h1><div class='fa fa-thumbs-o-up'></div> FORM ANIMATION</h1>
+        <h2><em>SHAKE ANIMATION</em></h2>
+      </div>
+      <form class='form animate-form' id='form1'>
+        <div class='form-group has-feedback'>
+          <label class='control-label sr-only' for='username'>Username</label>
+          <div class='input-group-addon'>
+            <div class='glyphicon glyphicon-user'></div>
+          </div>
+          <input class='form-control' id='username' name='username' placeholder='Username' type='text'>
+          <span class='glyphicon glyphicon-ok form-control-feedback'></span>
+        </div>
+        <div class='form-group has-feedback'>
+          <label class='control-label sr-only' for='email'>Email address</label>
+          <div class='input-group-addon'>
+            <div class='glyphicon glyphicon-envelope'></div>
+          </div>
+          <input class='form-control' id='email' name='email' placeholder='Email address' type='text'><span class='glyphicon glyphicon-ok form-control-feedback'></span>
+        </div>
+        <div class='form-group has-feedback'>
+          <label class='control-label sr-only' for='password'>Password</label>
+          <div class='input-group-addon'>
+            <div class='glyphicon glyphicon-lock'></div>
+          </div>
+          <input class='form-control' id='password' name='password' placeholder='Password' type='password'><span class='glyphicon glyphicon-ok form-control-feedback'></span>
+        </div>
+        <div class='form-group submit'>
+          <input class='btn btn-lg' type='submit' value='SEND'>
+        </div>
+      </form>
+    </div>
+    <script src='../../vendor/jquery/jquery-1.12.0.min.js'></script>
+    <script src='../../vendor/jquery-validation/jquery.validate.min.js'></script>
+    <script src='../../src/formAnimation.js'></script>
+    <script src='shake.js'></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+* {
+  outline: none !important; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  padding: 3em 15px;
+  background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #26d0ce, #1a2980 90%);
+  background-image: -moz-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -moz-linear-gradient(108deg, #26d0ce, #1a2980 90%);
+  background-image: -ms-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -ms-linear-gradient(108deg, #26d0ce, #1a2980 90%);
+  display: table;
+  font-family: "Raleway", sans-serif; }
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle; }
+
+.form-header {
+  text-align: center;
+  color: white; }
+  .form-header .fa {
+    font-size: 48px;
+    margin-bottom: 5px; }
+  .form-header h1 {
+    font-weight: 300;
+    margin-bottom: 15px;
+    letter-spacing: 0.3em;
+    font-size: 24px; }
+
+  .form-header h2 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 0.3em;
+    font-size: 20px; }
+
+.has-feedback .form-control-feedback {
+  top: 4px;
+  width: 40px;
+  font-size: 18px;
+  color: #6fd653;
+  opacity: 0; }
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  padding: 30px 25px 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  text-align: center; }
+  form .form-group {
+    margin-bottom: 20px; }
+    form .form-group .input-group-addon {
+      height: 44px;
+      width: 44px;
+      padding-top: 15px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border: 0;
+      background-color: transparent; }
+      form .form-group .input-group-addon .glyphicon {
+        font-size: 15px; }
+    form .form-group .form-control {
+      height: 44px;
+      padding: 12px;
+      padding-left: 46px;
+      background-color: white;
+      font-weight: 500; }
+    form .form-group.has-error label {
+      color: #d9534f; }
+      form .form-group.has-error label.error {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 13px; }
+    form .form-group.has-error input, form .form-group.has-error textarea {
+      border-color: #d9534f; }
+      form .form-group.has-error input:focus, form .form-group.has-error textarea:focus {
+        border-color: #d9534f;
+        box-shadow: 0 0 6px #d9534f; }
+    form .form-group.has-error .input-group-addon {
+      color: #d9534f; }
+    form .form-group.has-success label {
+      color: #6fd653; }
+    form .form-group.has-success input, form .form-group.has-success textarea {
+      border-color: #6fd653; }
+      form .form-group.has-success input:focus, form .form-group.has-success textarea:focus {
+        border-color: #6fd653;
+        box-shadow: 0 0 6px #6fd653; }
+    form .form-group.has-success .input-group-addon {
+      color: #6fd653; }
+    form .form-group.has-success .form-control-feedback {
+      opacity: 1; }
+    form .form-group.submit {
+      margin: 35px -25px 0; }
+      form .form-group.submit input[type="submit"] {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        letter-spacing: 0.4em;
+        border-radius: 0 0 4px 4px;
+        border: 0;
+        padding: 20px 0 22px;
+        background-color: #3ac56e;
+        color: white;
+        font-weight: 500;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s; }
+        form .form-group.submit input[type="submit"].disabled {
+          background-color: #999999; }
+
+form.animate-form .has-feedback .form-control-feedback {
+  opacity: 1;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.25s cubic-bezier(0.035, 1.22, 0.645, 1.385);
+  -moz-transition: all 0.25s cubic-bezier(0.035, 1.22, 0.645, 1.385);
+  transition: all 0.25s cubic-bezier(0.035, 1.22, 0.645, 1.385); }
+form.animate-form .form-group.has-success .form-control-feedback {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1); }

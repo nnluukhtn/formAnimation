@@ -1,0 +1,59 @@
+{
+	"name": "formAnimation",
+	"title": "jQuery Form Animation Plugin",
+	"description": "Form validation <3 animate.css",
+	"version": "0.0.1",
+	"homepage": "https://github.com/nnluukhtn/formAnimation",
+	"license": "MIT",
+	"author": {
+		"name": "Luu Nguyen",
+		"email": "nnluukhtn@gmail.com",
+		"url": "http://nnluukhtn.github.io"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/nnluukhtn/formAnimation.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nnluukhtn/formAnimation/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
+	"scripts": {
+		"test": "grunt",
+		"prepublish": "grunt"
+	},
+	"files": [
+		"dist/jquery.formAnimation.js"
+	],
+	"main": "dist/jquery.formAnimation.js",
+	"dependencies": {
+		"jquery": "^1.7 || ^2.0"
+	},
+	"devDependencies": {
+		"commitplease": "^2.2.3",
+		"grunt": "^0.4.4",
+		"grunt-contrib-compress": "^0.7",
+		"grunt-contrib-concat": "^0.3",
+		"grunt-contrib-copy": "^0.5",
+		"grunt-contrib-jshint": "^0.11.3",
+		"grunt-contrib-qunit": "^0.4",
+		"grunt-contrib-uglify": "^0.4",
+		"grunt-contrib-watch": "^0.6",
+		"grunt-jscs": "^2.2",
+		"grunt-text-replace": "^0.3.11"
+	},
+	"keywords": [
+		"jquery",
+		"jquery-plugin",
+		"forms",
+		"validation",
+		"validate",
+		"animation",
+		"animate"
+	]
+}
