@@ -15,20 +15,28 @@ jQuery can be downloaded from https://jquery.com/
 
 jQuery Validation Plugin can be downloaded from http://jqueryvalidation.org/
 
+Animate.css can be downloaded from https://daneden.github.io/animate.css/
+
 ### Including it on your page
 
 Include jQuery and the plugin on a page. Then select a form to add animation and call the `formAnimation` method.
 
 ```html
-<form>
-	<input required>
-</form>
-<script src="jquery.js"></script>
-<script src="jquery.validate.js"></script>
-<script src="formAnimation.js"></script>
-<script>
-$("form").formAnimation({ animatedClass: 'shake' });
-</script>
+<head>
+	<link href='animate.css' media='all' rel='stylesheet'>
+</head>
+...
+<body>
+	<form>
+		<input required>
+	</form>
+	<script src="jquery.js"></script>
+	<script src="jquery.validate.js"></script>
+	<script src="formAnimation.js"></script>
+	<script>
+	$("form").formAnimation({ animatedClass: 'shake' });
+	</script>
+</body>
 ```
 
 Alternatively include jQuery and the plugin via requirejs in your module.
