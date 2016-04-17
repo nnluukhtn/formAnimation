@@ -3,6 +3,10 @@
 
 The jQuery Form Animation Plugin provides drop-in animation for your existing forms, while making all kinds of customizations to fit your application really easy.
 
+![Screenshot](screenshots/shake_animation.gif)
+
+![Screenshot](screenshots/bounce_animation.gif)
+
 ## Getting Started
 
 ### Downloading the required libraries
